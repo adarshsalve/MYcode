@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race car Ragistration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@600;700&family=Josefin+Sans&family=Lobster&family=Rampart+One&family=Roboto+Slab:wght@300&family=Staatliches&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(230, 177, 79);
+        }
+
+        img {
+            width: 25vw;
+            height: 85vh;
+        }
+
+        .h1 {
+            width: 500px;
+            height: 100px;
+            background-color: rgb(230, 177, 79);
+            display: flex;
+            align-content: center;
+            border-radius: 20px;
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+        }
+
+        h1 {
+            color: red;
+            margin-top: 20px;
+            margin-left: 63px;
+        }
+
+        .form {
+            width: 600px;
+            height: 500px;
+            background-color: red;
+            margin-left: 100px;
+            margin-top: 50px;
+            background-color: rgb(230, 177, 79);
+            
+        }
+
+        main {
+            display: flex;
+        }
+
+        label {
+            font-size: 20px;
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+        }
+
+        .l1 input {
+            width: 300px;
+            height: 20px;
+        }
+        .l2 input {
+            width: 200px;
+            height: 20px;
+        }
+        .l3 input {
+            width: 200px;
+            height: 20px;
+        }
+        .l4 input {
+            width: 200px;
+            height: 20px;
+        }
+        .l5 input {
+            width: 200px;
+            height: 20px;
+        }
+        .l4{
+            margin-top: 40px;
+        }
+        .l3{
+            margin-top: 30px;
+        }
+        .l2{
+            margin-top: 30px;
+        }
+        .l5{
+            margin-top: 30px;
+        }
+        button{
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 40px;
+            width: 60px;
+            border-radius: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="h1">
+            <h1>Car Race Ragistration Form</h1>
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <img src="https://www.xtrafondos.com/wallpapers/vertical/carro-de-carrera-honda-f1-2430.jpg" alt="">
+        </div>
+        <div class="form">
+            <div class="l1">
+                <label for="Driver's Name">Driver's Name  :</label>
+                <input type="text">
+            </div>
+            <div class="l2">
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" name="dob" id="DOB">
+            </div>
+            <div class="l3">
+                <label for="PH.no ">Phone Number  :</label>
+                <input type="text">
+            </div>
+            <div class="l4">
+                <label for="email ">Email  :</label>
+                <input type="text" placeholder="                             @gmali.com">
+            </div> 
+            <div class="l5">
+                <label for="address "> Address :</label>
+               <textarea name="" id="" cols="90" rows="5"></textarea>
+            </div>   
+            <div class="l3">
+                <label for="car">Car NO:</label>
+                <input type="text">
+            </div>        
+             <button>Submit</button>
+
+        </div>
+    </main>
+</body>
+
+</html>
